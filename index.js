@@ -33,5 +33,5 @@ app.use((err, req, res, next) => {
 
 //Arrancar
 app.listen(port,'0.0.0.0',()=>{
-    console.log('Bienvenido FPalacio');
+    console.log('Bienvenido Palacio');
 });

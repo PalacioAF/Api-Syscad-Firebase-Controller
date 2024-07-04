@@ -11,7 +11,6 @@ function send(req,res){
         let tokens=[];
         for(let user of users){
             if(user.idtoken !== undefined && user.login && user.setting ){
-                console.log("idtoken:", user);
                 tokens.push(user.idtoken);
             }
         }
